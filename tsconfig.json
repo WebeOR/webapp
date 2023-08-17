@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "ESNext",
+    "target": "ESNext",
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+    "strict": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "allowJs": true,
+    "checkJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": [
+      "vitest",
+      "vite/client",
+      "vite-plugin-vue-layouts/client",
+      "@intlify/unplugin-vue-i18n/messages"
+    ],
+    "paths": {
+      "@app/*": ["src/app/*"],
+      "@base/*": ["src/app/base/*"],
+      "@scopes/*": ["src/app/scopes/*"],
+      "@shared/*": ["src/shared/*"],
+      "@schemas/*": ["schemas/*"],
+      "~/*": ["./*"],
+      "src/*": ["src/*"]
+    }
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "cypress",
+    "vite.config.ts.*"
+  ]
+}

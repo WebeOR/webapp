@@ -1,0 +1,31 @@
+body {
+  &::-webkit-scrollbar {
+    width: 6px !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+  /* or add it to the track */
+  transition: .2s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb {
+  opacity: 0.2;
+  background-color: rgba(#C4C4C4, .75);
+  border-radius: 4px;
+  transition: .2s ease-in-out;
+
+  &:hover {
+    background-color: rgba(white, 0.5);
+  }
+}
+
+::-webkit-resizer {
+  border-radius: 4px;
+  background-image: none;
+  background-repeat: no-repeat;
+  width: 4px;
+  height: 0;
+}

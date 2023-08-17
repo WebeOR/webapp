@@ -1,0 +1,60 @@
+{
+  "extends": [
+    "plugin:@intlify/vue-i18n/recommended",
+    "@antfu"
+  ],
+  "plugins": [
+    "sort-keys-fix"
+  ],
+  "rules": {
+    "@intlify/vue-i18n/no-deprecated-i18n-component": [
+      "error"
+    ],
+    "@intlify/vue-i18n/no-deprecated-i18n-place-attr": [
+      "error"
+    ],
+    "@intlify/vue-i18n/no-deprecated-i18n-places-prop": [
+      "error"
+    ],
+    "@intlify/vue-i18n/no-missing-keys": [
+      "error"
+    ],
+    "@intlify/vue-i18n/no-raw-text": [
+      "warn"
+    ],
+    "@intlify/vue-i18n/no-v-html": [
+      "error"
+    ],
+    "@intlify/vue-i18n/valid-message-syntax": [
+      "error"
+    ],
+    "no-console": "off",
+    "sort-keys-fix/sort-keys-fix": [
+      "warn",
+      "asc",
+      {
+        "caseSensitive": true,
+        "natural": false
+      }
+    ],
+    "vue/custom-event-name-casing": [
+      "error",
+      "kebab-case",
+      {
+        "ignores": []
+      }
+    ],
+    "vue/valid-v-slot": "off"
+  },
+  "ignorePatterns": [
+    "src/app/shared/api/graphql/operations.ts"
+  ],
+  "settings": {
+    "vue-i18n": {
+      "localeDir": "./src/locales/*.{json,json5,yaml,yml}",
+      // Specify the version of `vue-i18n` you are using.
+      // If not specified, the message will be parsed twice.
+      "messageSyntaxVersion": "^9.2.2"
+    }
+  }
+}

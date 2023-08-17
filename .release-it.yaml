@@ -1,0 +1,12 @@
+git:
+  commitMessage: 'chore: release v${version}'
+
+gitlab:
+  release: true
+  releaseName: Release ${version}
+
+npm:
+  release: false
+
+github:
+  release: false

@@ -1,0 +1,43 @@
+add: Добавить
+auth.change_password: Сменить пароль
+auth.password: Пароль
+auth.sign_in: Войти
+auth.sign_out: Выйти
+auth.to_sign_up: Регистрация
+auth.username: Имя пользователя
+
+edit: Изменить
+email: Email
+firstName: Имя
+name: Наименование
+password: Пароль
+reset: Сброс
+save: Сохранить
+type: Тип
+ui.404: Не стоило сюда приходить...
+
+ui.app.version: Версия
+ui.back: Назад
+ui.clipboard.copy_value_from_text_field_below: Скопируйте значение из поля ниже вручную.
+ui.clipboard.not_supported_message: Ваш браузер не поддерживает автоматическое копирование в буфер обмена.
+ui.content: Содержимое
+ui.copy: Скопировать
+ui.error: Ошибка!
+ui.error:critical_support_required: Критическая ошибка!
+ui.forward: Вперёд
+ui.in_progress: Загружаю...
+ui.interaction.copied_to_clipboard: Скопировано в буфер обмена
+ui.remove: Удалить
+ui.reset: Сбросить
+ui.retry: Попробовать снова
+ui.save: Сохранить
+ui.search: Поиск...
+ui.you_have_no_access_to_this_page: У вас нет доступа к этой странице
+
+
+validation.invalid_email: неверный email
+validation.required: Введите значение
+validation.should_be_less_than: Должно быть менее, чем
+validation.should_be_more_than: Должно быть более, чем
+validation.should_be_non_equal: Не должно быть равно
+validation.should_be_positive: Должно быть больше нуля
